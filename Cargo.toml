@@ -1,6 +1,6 @@
 [package]
 name = "ident_concat"
-version = "0.2.3"
+version = "0.3.0"
 edition = "2021"
 repository = "https://github.com/tudbut/ident-concat"
 description = "Concatenates identifiers."
