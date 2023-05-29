@@ -31,7 +31,8 @@ pub fn ident(ts: TokenStream) -> TokenStream {
 }
 
 #[proc_macro]
-/// Replaces identifiers with concatenated ones.
+/// Replaces identifiers with concatenated ones. This will not recurse!
+/// Use multiple invocations for recursion.
 /// ```
 /// use ident_concat::replace;
 /// replace!{ placeholder te st:
