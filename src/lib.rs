@@ -1,12 +1,8 @@
 //! [`ident!`], [`replace!`]
-#![no_std]
 extern crate proc_macro;
-extern crate alloc;
 use proc_macro::{token_stream::IntoIter, *};
-use alloc::string::ToString;
 
 fn concat(ts: &mut IntoIter, end: Option<char>) -> Ident {
-    use alloc::string::String;
 
     let mut ident = String::new();
     for x in ts {

@@ -1,7 +1,7 @@
 # Concatenates identifiers. 
 
 Yet again, I am making a crate with the amount of code that is *actually necessary*:
-No-STD, <50 SLOC, 0 dependencies.
+<50 SLOC, 0 dependencies.
 
 ```
 use ident_concat::ident;
