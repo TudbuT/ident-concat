@@ -1,4 +1,4 @@
-//! [`concat_idents!`]
+//! [`ident!`], [`replace!`]
 #![no_std]
 extern crate proc_macro;
 extern crate alloc;
